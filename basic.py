@@ -77,3 +77,97 @@ print(c+d)
 != True if not equal
 < less than & > grater than
 <= less than or equal to >= grater than or equal to"""
+
+e = 20
+f = 10
+
+print(e == f)
+print(e != f)
+print(e < f)
+print(e > f)
+print(e <= f)
+print(e >= f)
+
+"""assignment operators:
+= equals to
+-= minus equals to
++= plus equals to
+/= divide equals to
+*= multiply equals to
+"""
+a = 80
+a -= 20
+print(a)
+a += 30
+print(a)
+a /= 5
+print(a)
+a *= 2
+print(a)
+
+"""logical operator : works on boolean value and returns boolean value
+and : returns True when both sides are Ture, apart from that retuns False everytime
+or : returns True when any of the side is True, only returns False if both sides are False
+not : returns the opposite value, not True = False , not False = True"""
+
+a = 5 > 3
+b = 6 < 2
+
+print (a and b)
+print(a or b)
+print(not a)
+
+
+a = 5 >= 2
+b = 5 <= 5
+
+print(a and b)
+print(a or b)
+
+
+"""special operator:
+in:tells you if an object is part of other object or not
+is:tells you if both of the object are at same memory location"""
+
+a = "Snehasish"
+b = "Adhikary"
+
+print(a in b)
+print(a is b)
+
+a = 5
+b = 5
+
+print(a is b)
+
+a = "Snehasish"
+
+print("S" in a)
+
+"""contrl flow:
+if
+else
+elif"""
+
+current_time = int(input())
+if current_time >= 9:
+    if current_time >= 18:
+        print("It's time for log out")
+    else:
+        print("It's working hours")
+else:
+    print("Enjoy your time")
+
+time = int(input())
+if time == 9:
+    print("Time to log in")
+elif time == 13:
+    print("Time for Lunch")
+elif time >= 9:
+    print("Have a good working day")
+elif time >= 18:
+    print("time to log out")
+else:
+    print("enjoy your time")
+
+
