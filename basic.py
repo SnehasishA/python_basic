@@ -171,3 +171,42 @@ else:
     print("enjoy your time")
 
 
+"""Loops in python:
+while: basic rule for while rule, initiliaze value, loop condition, update the value 
+for:"""
+
+i = 1
+while i <= 10:
+    print("practicing while loop")
+   
+    i += 1
+
+for i in range(1, 11):
+    print("practicing for loop")
+    
+
+i = 1
+while i <= 11:
+#use end=" " to print the output in single line
+    print(i ,end=" ")
+    i+= 1
+
+"""printing pattern(n number of # in n number of lines) using for loop"""
+n = int(input())
+
+for i in range(n):
+    for j in range(n):
+        print("#", end=" ")
+    print()
+
+
+"""printing pattern(print * in n number of lines starting from 1) using for loop"""
+
+n = int(input())
+
+for i in range(1, n):
+    for j in range (i+1):
+        print("*", end=" ")
+
+    print()
+
